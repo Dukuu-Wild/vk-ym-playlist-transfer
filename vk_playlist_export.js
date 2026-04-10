@@ -15,7 +15,7 @@
             const el = document.scrollingElement || document.documentElement;
             const h = el.scrollHeight;
             window.scrollTo(0, h);
-            await delay(450);
+            await delay(5000);
 
             const newH = el.scrollHeight;
             if (newH === lastHeight) {
